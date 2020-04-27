@@ -3,10 +3,7 @@
    xmlns:f="http://java.sun.com/jsf/core"
    xmlns:p="http://primefaces.org/ui"
    xmlns:sc="http://java.sun.com/jsf/composite/solartis"
-   xmlns:ui="http://java.sun.com/jsf/facelets"
-   xmlns:c="http://java.sun.com/jsp/jstl/core"
-   xmlns:sf="http://solartis.com/facelets"
-   xmlns:fn="http://java.sun.com/jsp/jstl/functions">
+   xmlns:ui="http://java.sun.com/jsf/facelets">
           
 	 <script src="go.js">
 	 
@@ -94,7 +91,7 @@
     });
       </script>
 	  <body>
-	  <h:inputHidden id="nodeFinalResult"  value="#{beanName.getNodeResult()}" />
+	  <h:inputHidden id="nodeFinalResult"  value="#{beanName.getResult()}" />
 	   <div id="sample">
          	<div id="myDiagramDiv" style="background-color: white; border: solid 1px black; width: 100%; height: 550px"></div>	
        </div>
